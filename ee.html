@@ -181,33 +181,44 @@
 
             </br>
             <p><strong>This is the easter-egg page.</strong></p>
-            <p>The original idea for the theme/design of the whole website was movies like Blade Runner (1982) (imagine vibrant colors and a retrowave track playing in every page). 
-                However, in the end I decided to settle with a more vanilla console theme, inspired by the Linux console.
+            <p>The original idea for the theme/design of the whole website was movies like Blade Runner (1982) (imagine
+                vibrant colors and a retrowave track playing in every page).
+                However, in the end I decided to settle with a more vanilla console theme, inspired by the Linux
+                console.
                 This easter egg page serves as a reminder of this transition.
             </p>
-            <p>In addition to that the easter-egg provides a place for experimenting with different html elements and testing new ideas in different browsers and devices.</p>
+            <p>In addition to that the easter-egg provides a place for experimenting with different html elements and
+                testing new ideas in different browsers and devices.</p>
             </br>
 
             <hr class="Edited_hr">
 
             <div class="Audio_Player_Box">
                 <audio id="Background_Audio" controls autoplay loop volume="0.5">
-                    <source src="media/SpaceCruiser.mp3"> 
+                    <source src="media/SpaceCruiser.mp3">
                     <!--<source src="media/LoFi_MorningDreams.mp3">-->
                     Your browser does not support the audio element.
                 </audio>
             </div>
-            <p style="font-size: 25px; font:bold"><strong><- Here is a stop music button</strong> </p>
-            <p>A simple enough concept but apparently against the design philosophy of most 2000's blog pages.</p>
+            <p style="font-size: 25px; font:bold"><strong>
+                    <- Here is a stop music button</strong> </p> <p>A simple enough concept but apparently against the
+                        design philosophy of most 2000's blog pages.</p>
             <img src="media/Autoplay_1.jpg" alt='Autoplay Image 1' height="200">
             <img src="media/Autoplay_2.jpg" alt='Autoplay Image 2' height="200">
 
 
             <hr />
-            <p><strong>Note to reader and to self:</strong> Google chrome has been apparently following an anti-autoplay policy since 2017 (<a href="https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio">Google Chrome Autoplay Policy Changes Page</a>).
-                Not knowing that, I was trying to figure out why the music track was not playing, in a vain attempt to replicate the obnoxious loud websites of my youth.
-                After a while I realized that the music was autoplaying just fine in other browsers like MS Edge and IE Explorer.
-                If you are using Google Chrome and actually clicked somewhere on the page, the current music autoplay "magic" that you have just witnessed is actually a script that presses the play-music-button as soon as the user clicks anywhere on the page.
+            <p><strong>Note to reader and to self:</strong> Google chrome has been apparently following an anti-autoplay
+                policy since 2017 (<a
+                    href="https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio">Google
+                    Chrome Autoplay Policy Changes Page</a>).
+                Not knowing that, I was trying to figure out why the music track was not playing, in a vain attempt to
+                replicate the obnoxious loud websites of my youth.
+                After a while I realized that the music was autoplaying just fine in other browsers like MS Edge and IE
+                Explorer.
+                If you are using Google Chrome and actually clicked somewhere on the page, the current music autoplay
+                "magic" that you have just witnessed is actually a script that presses the play-music-button as soon as
+                the user clicks anywhere on the page.
             </p>
             <img src="media/Wand.gif" alt='Magic Wand Image' height="70">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat laboriosam quisquam repellat modi
@@ -217,12 +228,15 @@
 
             <hr class="Edited_hr">
 
-            <p>Embedded videos also seem to be unable to autoplay sound and what a better way to test that than a Microsoft Office 95 easter egg video.
-                This easter egg now featuring a much more extreme design transition from an Excel sheet to a Doom-like engine.
+            <p>Embedded videos also seem to be unable to autoplay sound and what a better way to test that than a
+                Microsoft Office 95 easter egg video.
+                This easter egg now featuring a much more extreme design transition from an Excel sheet to a Doom-like
+                engine.
             </p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/kK0M74E8PS4?start=27&mute=1" frameborder="0" allowfullscreen></iframe>
-            <br/><br/>
-            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kK0M74E8PS4?start=27&mute=1"
+                frameborder="0" allowfullscreen></iframe>
+            <br /><br />
+
             <hr class="Edited_hr">
             <p>Hey that was fun! But anyways it is getting late..</p>
             <p>See you around!</p>
@@ -247,9 +261,13 @@
         function musicPlay() {
             document.getElementById("Background_Audio").play();
             document.removeEventListener('click', musicPlay);
+
+            var song_var = document.getElementById("Background_Audio");
+            song_var.volume = 0.15;
         }
     </script>
 
-</body>
 
-</html>
+</body >
+
+</html >
