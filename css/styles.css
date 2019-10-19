@@ -105,6 +105,7 @@ p {
 /*Easter Egg Link Styling*/
 #red-h1 {
     /*color:rgb(214, 211, 211);*/
+    color:#000;
     text-decoration:none;
     position:fixed; left:90%;
 }
