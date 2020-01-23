@@ -1,3 +1,23 @@
+
+html, html[data-theme="light"] {
+    --bgnd_col:rgb(221, 201, 178);
+    --txt_col:black;
+
+    /*--bgnd_col:#000;
+    --txt_col:#DBDBDB;*/
+}
+  
+
+/*Dark Mode Changes*/
+html[data-theme="dark"] {
+    /*background-color:#000;
+    color:#DBDBDB;*/
+    --bgnd_col:rgb(0, 0, 0);
+    --txt_col:#DBDBDB;
+    
+}
+
+
 /*Main Body*/
 body {
     font-family: 'Source Code Pro', monospace, Courier;
@@ -6,8 +26,8 @@ body {
     /*line-height: 1em;*/
     font-size:12.5px;
     
-    background-color:#000;
-    color:#DBDBDB;
+    background-color: var(--bgnd_col);
+    color: var(--txt_col);
     
     text-align:left;
     line-height:1.5;
@@ -23,6 +43,9 @@ body {
 }
 
 
+
+
+
 /*Headers*/
 h1,h2,h3,h4,h5,h6 {
     font-size:14px;
@@ -35,12 +58,38 @@ h1,h2,h3,h4,h5,h6 {
 /*Links Styling*/
 a {
     text-decoration:underline;
-    color:#DBDBDB
+    color: var(--txt_col);
 }
     
 a:hover {
-    color:#000;
-    background-color:#DBDBDB
+    color: var(--bgnd_col);
+    background-color: var(--txt_col);
+}
+
+
+/*Same styling for the toggle background button as for links*/
+/*Id not a class*/
+#btn_dark_mode {
+    border: none;
+    color: var(--txt_col);
+    /*background-color: var(--bgnd_col);*/
+    background-color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    margin:0;
+    padding:0;
+}
+
+
+#btn_dark_mode:hover {
+    color: var(--bgnd_col);
+    background-color: var(--txt_col);
+}
+
+
+#btn_dark_mode:active {
+    transform: translateY(4px);
 }
 
 
@@ -48,8 +97,8 @@ a:hover {
 header{
     margin-top:25px;
     margin-bottom:10px;
-    border-top:dashed 1px rgba(219,219,219,0.9);
-    border-bottom:dashed 1px rgba(219,219,219,0.9);
+    border-top:dashed 1px var(--txt_col);
+    border-bottom:dashed 1px var(--txt_col);
     text-align:right;
     padding: 10px 0 10px 0;
 }
@@ -105,7 +154,7 @@ p {
 /*Easter Egg Link Styling*/
 #red-h1 {
     /*color:rgb(214, 211, 211);*/
-    color:#000;
+    color:var(--bgnd_col);
     text-decoration:none;
     position:fixed; left:90%;
 }
@@ -116,8 +165,8 @@ p {
 
 /*Footer Styling*/
 footer{
-    color:#DBDBDB;
-    border-top:dashed 1px rgba(219,219,219,0.9);
+    color: var(--txt_col);
+    border-top:dashed 1px var(--txt_col);
     margin:30px auto 15px;
     padding-top:5px;
     text-align:right;
@@ -151,8 +200,13 @@ footer{
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-  }
+}
 
-  .About_text {
+.About_text {
     margin: 10px 0px 15px 240px;
-  }
+}
+
+.Links_ul li {
+    margin:0;
+    padding:0;
+}

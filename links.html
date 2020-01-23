@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html>
 
+<!--By Filippos-->
+<!--Last edit Jan 2020-->
+
+<script src="js_functions/includeHTML.js">
+</script>
+
+<script src="js_functions/get_theme_plain.js">
+</script>
+
+<script src="js_functions/fun_mode_button_plain.js">
+</script>
+
+
 <head>
     <!-- Metatags -->
     <meta charset="UTF-8">
@@ -21,37 +34,73 @@
         <div class="Default_Header">
             <nav>
                 <ul>
+                    <!--<div w3-include-html="html_includes/header_default.html"></div> -->
                     <li><a href="index.html">/</a></li>
                     <li><a href="about.html">/About</a></li>
                     <li><a href="projects.html">/Projects</a></li>
                     <li><a href="downloads.html">/Downloads</a></li>
                     <li><a href="links.html">/Links</a></li>
+                    <li><button id="btn_dark_mode" onclick="fun_mode_button_plain()">/Dark Mode</button></li>
                 </ul>
             </nav>
         </div>
     </header>
 
 
+
+
     <!-- Main Body -->
     <main>
- 
-        <h1>This Page is under construction</h1>
 
-        <img src="media/under_construction.jpg" alt='Under Construction' height="300">
+        <div class="Default_Container">
+            <h1>Links to group websites</h1>
+            <ul>
+                <!--<div w3-include-html="html_includes/header_default.html"></div> -->
+                <li><a href="http://heaton.caltech.edu/">My adviser's: Tom Heaton's personal page</a></li>
+                <li><a href="http://kohler.caltech.edu/">My adviser's: Monica Kohler's personal page</a></li>
+                <li><a href="http://csn.caltech.edu/">Community Seismic Network Website</a></li>
+            </ul>
+        </div>
 
-        <a id="red-h1" href="ee.html">?</a>
-        
+        <br>
+
+        <div class="Default_Container">
+            <h1>Links to my</h1>
+            <ul>
+                <!--<div w3-include-html="html_includes/header_default.html"></div> -->
+                <li><a href="404.html">Github</a></li>
+                <li><a href="404.html">Twitter</a></li>
+                <li><a href="404.html">Linkedin</a></li>
+                <li><a href="404.html">Youtube</a></li>
+                <li><a href="404.html">GoogleScholar</a></li>
+                <li><a href="404.html">Trello</a></li>
+
+            </ul>
+        </div>
+
+        <!-- <a id="red-h1" href="ee.html">?</a> -->
+
     </main>
 
 
     <!-- Footer -->
     <footer>
         <div class="Default_Footer">
-            <p>Filippos Filippitzis, 2019</p>
-            <p>Follow me on <a href="https://github.com/filip-os">Github</a>...</p>
+            <div w3-include-html="html_includes/footer_default.html"></div>
+
+            <!-- Note: when using this include just reading the html file will not work 
+                (you need to open on a localhost) -->
         </div>
     </footer>
 
 </body>
+
+<script>
+    includeHTML();
+</script>
+
+<script>
+    get_theme_plain();
+</script>
 
 </html>

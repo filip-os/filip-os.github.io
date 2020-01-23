@@ -17,7 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Title -->
-    <title>Downloads</title>
+    <title>Projects</title>
 
     <!-- css stylink link -->
     <link rel="stylesheet" href="css/styles.css">
@@ -56,7 +56,7 @@
 
         <!-- <p> Image: </p>
         <p id="test_filename"></p> -->
-        
+        <p id="test_theme"></p>
 
     </main>
 
@@ -84,7 +84,11 @@
         if (theme === "dark") {
             document.documentElement.setAttribute('data-theme', 'dark');
             document.getElementById("constr_img").src = "media/under_construction_dark.jpg";
+            document.getElementById("test_theme").innerHTML = "it is dark";
             document.getElementById("btn_dark_mode").innerHTML = "/Light Mode";
+        } else {
+            document.getElementById("test_theme").innerHTML = "it is white";
+
         }
     </script>
 
