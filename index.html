@@ -7,12 +7,6 @@
 <script src="js_functions/includeHTML.js">
 </script>
 
-<script src="js_functions/get_theme_plain.js">
-</script>
-
-<script src="js_functions/fun_mode_button_plain.js">
-</script>
-
 
 <head>
     <!-- Metatags -->
@@ -39,10 +33,10 @@
             <nav>
                 <ul>
                     <li><a href="index.html">/About</a></li>
-                    <li><a href="projects.html">/Projects</a></li>
+                    <li><a href="research.html">/Research</a></li>
                     <li><a href="posts.html">/Posts</a></li>
-                    <li><a href="downloads.html">/Downloads</a></li>
-                    <li><button id="btn_dark_mode" onclick="fun_mode_button_plain()">/Dark Mode</button></li>
+                    <li><a href="links.html">/Links</a></li>
+                    <li><button id="btn_dark_mode" onclick="fun_mode_button_index()">/Dark Mode</button></li>
                 </ul>
             </nav>
         </div>
@@ -71,8 +65,8 @@
                         <a href="https://github.com/filip-os">Github</a>
                     </li>
 
-                    <li><img src="media/svg_logos/email.svg" alt='Image:EmailAdress' class="svg_icons" height="14">
-                        <img src="media/notanemailadress_light.png" alt='Icon:Letter' height="14">
+                    <li><img src="media/svg_logos/email.svg" alt='Icon:Letter' class="svg_icons" height="14">
+                        <img src="media/notanemailadress_light.png" alt='Image:EmailAdress' id="email_pic" height="14">
                     </li>
 
                 </ul>
@@ -107,14 +101,9 @@
                 You can find out more about specific projects in more detail at the <a
                     href="projects.html">/Projects</a> page.
             </p>
-            
-            <p>
-                For a summary of my past studies and work, you can find my resume <a href="docs/CV.pdf">here</a>.
-            </p>
 
             <p>
-                This website was inspired by a console-based theme.
-                It is written using html, css, and javascript and hosted on github.pages.
+                For a summary of my past studies and work, you can find my resume <a href="docs/CV.pdf">here</a>.
             </p>
 
         </div>
@@ -126,31 +115,28 @@
 
             <a href="https://github.com/filip-os">
                 <img src="media/svg_logos/github.svg" alt='Icon:github' class="svg_icons">
-            </a></li>
+            </a>
 
             <a href="https://www.linkedin.com/">
                 <img src="media/svg_logos/linkedin.svg" alt='Icon:linkedin' class="svg_icons">
-            </a></li>
+            </a>
 
             <a href="https://twitter.com/filipposf_">
                 <img src="media/svg_logos/twitter.svg" alt='Icon:twitter' class="svg_icons">
-            </a></li>
+            </a>
 
             <a href="https://www.youtube.com/channel/UCYWwCCiHupBoV6FmlNnakEw">
                 <img src="media/svg_logos/youtube.svg" alt='Icon:youtube' class="svg_icons">
-            </a></li>
+            </a>
 
             <a href="https://trello.com/filippos31">
                 <img src="media/svg_logos/Trello.svg" alt='Icon:trello' class="svg_icons">
-            </a></li>
+            </a>
 
             <a href="https://scholar.google.com/citations?user=_4mL1qcAAAAJ&hl=en">
                 <img src="media/svg_logos/google-scholar.svg" alt='Icon:google-scholar' class="svg_icons">
-            </a></li>
+            </a>
 
-
-            </ul>
-            </nav>
         </div>
 
     </main>
@@ -168,12 +154,45 @@
 
 </body>
 
+
+
+<!-- Checking if the user has previously selected a light/dark theme -->
+<!-- This is run when the page reloads (script)-->
 <script>
-    includeHTML();
+    const theme = localStorage.getItem('theme');
+    if (theme === "dark") {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        document.getElementById("btn_dark_mode").innerHTML = "/Light Mode";
+        document.getElementById("email_pic").src = "media/notanemailadress_dark.png";
+    }
 </script>
 
+
+
+<!-- Toggle dark mode function -->
+<!-- Blur Removes the focous from the button after click without affecting accesibility -->
+<!-- Change button string -->
+<!-- Change figure -->
 <script>
-    get_theme_plain();
+    function fun_mode_button_index() {
+
+        document.activeElement.blur();
+
+        let currentMode = document.documentElement.getAttribute('data-theme');
+        if (currentMode === "dark") {
+            document.getElementById("btn_dark_mode").innerHTML = "/Dark Mode";
+            document.documentElement.setAttribute('data-theme', 'light');
+            window.localStorage.setItem('theme', 'light');
+            document.getElementById("email_pic").src = "media/notanemailadress_light.png";
+
+        } else {
+            document.getElementById("btn_dark_mode").innerHTML = "/Light Mode";
+            document.documentElement.setAttribute('data-theme', 'dark');
+            window.localStorage.setItem('theme', 'dark');
+            document.getElementById("email_pic").src = "media/notanemailadress_dark.png";
+            
+        }
+    }
 </script>
 
 </html>
