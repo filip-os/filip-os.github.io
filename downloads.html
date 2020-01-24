@@ -31,11 +31,10 @@
             <nav>
                 <ul>
                     <!--<div w3-include-html="html_includes/header_default.html"></div>-->
-                    <li><a href="index.html">/</a></li>
-                    <li><a href="about.html">/About</a></li>
+                    <li><a href="index.html">/About</a></li>
                     <li><a href="projects.html">/Projects</a></li>
+                    <li><a href="posts.html">/Posts</a></li>
                     <li><a href="downloads.html">/Downloads</a></li>
-                    <li><a href="links.html">/Links</a></li>
                     <li><button id="btn_dark_mode" onclick="fun_dark_mode()">/Dark Mode</button></li>
                 </ul>
             </nav>
@@ -48,15 +47,12 @@
     <!-- Main Body -->
     <main>
 
-
-
         <h1>This Page is under construction</h1>
         <!-- <br /><br /> -->
-        <img id="constr_img" src="media/under_construction_light.jpg" alt='Under Construction' height="300">
+        <img id="constr_img" src="media/under_construction_light2.jpg" alt='Under Construction' width=100% >
 
         <!-- <p> Image: </p>
         <p id="test_filename"></p> -->
-        
 
     </main>
 
@@ -106,7 +102,7 @@
         let currentMode = document.documentElement.getAttribute('data-theme');
 
         if (currentMode === "dark") {
-            document.getElementById("constr_img").src = "media/under_construction_light.jpg";
+            document.getElementById("constr_img").src = "media/under_construction_light2.jpg";
             document.getElementById("btn_dark_mode").innerHTML = "/Dark Mode";
             document.documentElement.setAttribute('data-theme', 'light');
             window.localStorage.setItem('theme', 'light');

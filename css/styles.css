@@ -1,74 +1,68 @@
-
 html, html[data-theme="light"] {
-    --bgnd_col:rgb(221, 201, 178);
-    --txt_col:black;
-
+    /*--bgnd_col: rgb(221, 201, 178);*/
+    --bgnd_col: #f5f5f5;
+    --txt_col: black;
     /*--bgnd_col:#000;
     --txt_col:#DBDBDB;*/
 }
-  
 
 /*Dark Mode Changes*/
+
 html[data-theme="dark"] {
     /*background-color:#000;
     color:#DBDBDB;*/
-    --bgnd_col:rgb(0, 0, 0);
-    --txt_col:#DBDBDB;
+    --bgnd_col: rgb(0, 0, 0);
+    --txt_col: #DBDBDB;
+
     
 }
 
-
 /*Main Body*/
+
 body {
     font-family: 'Source Code Pro', monospace, Courier;
     /*font-family: 'Courier New', Courier, monospace; */
     /*font-size: 1em;*/
     /*line-height: 1em;*/
-    font-size:12.5px;
-    
+    font-size: 14px;
     background-color: var(--bgnd_col);
     color: var(--txt_col);
-    
-    text-align:left;
-    line-height:1.5;
+    text-align: left;
+    line-height: 1.5;
     /*margin: 0px 0px 0px 0px;*/
     padding: 0px 0px 0px 0px;
-
-    width:90%;
-    max-width:600px;
-    margin-right:auto;
-    margin-left:auto;
-
+    width: 90%;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
     /*zoom: 110%;*/
 }
 
-
-
-
-
 /*Headers*/
-h1,h2,h3,h4,h5,h6 {
-    font-size:14px;
-    margin:0px;
-    margin-top:22px;
-    font-weight:bold;
-}
 
+h1, h2, h3, h4, h5, h6 {
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 22px;
+    font-weight: bold;
+}
 
 /*Links Styling*/
+
 a {
-    text-decoration:underline;
+    text-decoration: underline;
     color: var(--txt_col);
 }
-    
+
 a:hover {
     color: var(--bgnd_col);
     background-color: var(--txt_col);
 }
 
-
 /*Same styling for the toggle background button as for links*/
+
 /*Id not a class*/
+
 #btn_dark_mode {
     border: none;
     color: var(--txt_col);
@@ -77,60 +71,56 @@ a:hover {
     font-family: inherit;
     font-size: inherit;
     cursor: pointer;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
-
 
 #btn_dark_mode:hover {
     color: var(--bgnd_col);
     background-color: var(--txt_col);
 }
 
-
 #btn_dark_mode:active {
     transform: translateY(4px);
 }
 
-
 /*Header Styling*/
-header{
-    margin-top:25px;
-    margin-bottom:10px;
-    border-top:dashed 1px var(--txt_col);
-    border-bottom:dashed 1px var(--txt_col);
-    text-align:right;
+
+header {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    border-top: dashed 1px var(--txt_col);
+    border-bottom: dashed 1px var(--txt_col);
+    text-align: right;
     padding: 10px 0 10px 0;
 }
 
-
 /*Header Paragraph Styling*/
-header p{
-    text-align:left;
-    margin:0
+
+header p {
+    text-align: left;
+    margin: 0
 }
 
-
 /*Header Links Styling*/
+
 header a {
-    text-decoration:none;
+    text-decoration: none;
     /*text-transform: uppercase;*/
 }
 
-
 /*Header List Styling*/
+
 header ul {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 header li {
     /*float: left;*/
     display: inline;
-    padding:0 5px 0 5px;
+    padding: 0 5px 0 5px;
 }
-
-
 
 /*Default Container
 .Default_Container {
@@ -139,7 +129,6 @@ header li {
     margin-right:auto;
     margin-left:auto;
 }*/
-
 
 /*Paragraph Styling
 p {
@@ -150,49 +139,52 @@ p {
 }
 */
 
-
 /*Easter Egg Link Styling*/
+
 #red-h1 {
     /*color:rgb(214, 211, 211);*/
-    color:var(--bgnd_col);
-    text-decoration:none;
-    position:fixed; left:90%;
-}
-#red-h1:hover {
-    background-color:rgb(219, 0, 128);
+    color: var(--bgnd_col);
+    text-decoration: none;
+    position: fixed;
+    left: 90%;
 }
 
+#red-h1:hover {
+    background-color: rgb(219, 0, 128);
+}
 
 /*Footer Styling*/
-footer{
+
+footer {
     color: var(--txt_col);
-    border-top:dashed 1px var(--txt_col);
-    margin:30px auto 15px;
-    padding-top:5px;
-    text-align:right;
-    line-height:1.0;
+    border-top: dashed 1px var(--txt_col);
+    margin: 40px auto 15px;
+    padding-top: 5px;
+    text-align: right;
+    line-height: 1.0;
 }
 
-
 /*About Page*/
+
 .Picture_Banner {
     width: 30%;
     float: left;
     padding: 15px 15px 15px 15px;
+    font-size: 14.5px;
 }
 
 .Picture_Banner ul {
-    margin:0;
-    padding:0;
-    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 .Picture_Banner li {
-    padding:0 5px 0 5px;
+    padding: 0 5px 0 5px;
 }
 
 .Picture_Banner li a {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 #profile_pic {
@@ -200,13 +192,75 @@ footer{
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
+    /*border:2px solid var(--txt_col);*/
+    border:1.5px solid black;
 }
 
+
 .About_text {
-    margin: 10px 0px 15px 240px;
+    margin: 30px 0px 15px 290px;
+    /*text-align: justify;
+    text-justify: inter-word; */
 }
 
 .Links_ul li {
-    margin:0;
-    padding:0;
+    margin: 0px;
+    margin-bottom: 4px;
+    padding: 0px;
+}
+
+.Links_ul img {
+    transform: translate(0, 2px);
+}
+
+.Social_Menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Social_Menu img{
+    height: 25px;
+    width: auto;
+}
+
+.Social_Menu a{
+    margin: 20px
+}
+
+.Social_Menu a:hover {
+    opacity: 0.9;
+    transform: translate(0, -5px);
+    /*text-decoration: none;*/
+    background-color: initial;
+    color: initial;
+}
+
+
+/*Filter the .svg images for the dark theme*/
+html[data-theme="dark"] .svg_icons {
+    /*filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);*/ /*green filter*/
+    filter: invert(78%) sepia(0%) saturate(1581%) hue-rotate(134deg) brightness(107%) contrast(108%);   /*grey filter*/
+}
+
+
+/*For the posts container*/
+.Posts_Container ul {
+    list-style-type: none;
+}
+
+.Posts_Container li img {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+.Posts_Container li {
+    padding: 10px;
+    overflow: auto;
+}
+
+.Posts_Container a:hover {
+    opacity: 0.9;
+    background-color: initial;
+    color: initial;
 }

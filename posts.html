@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<!--By Filippos-->
+<!--Last edit Jan 2020-->
+
+<script src="js_functions/includeHTML.js">
+</script>
+
+<script src="js_functions/get_theme_plain.js">
+</script>
+
+<script src="js_functions/fun_mode_button_plain.js">
+</script>
+
+
+<head>
+    <!-- Metatags -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Filippos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Posts</title>
+
+    <!-- css stylink link -->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="Default_Header">
+            <nav>
+                <ul>
+                    <!--<div w3-include-html="html_includes/header_default.html"></div>-->
+                    <li><a href="index.html">/About</a></li>
+                    <li><a href="projects.html">/Projects</a></li>
+                    <li><a href="posts.html">/Posts</a></li>
+                    <li><a href="downloads.html">/Downloads</a></li>
+                    <li><button id="btn_dark_mode" onclick="fun_mode_button_plain()">/Dark Mode</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+    <!-- Main Body -->
+    <main>
+
+        <div class="Posts_Container">
+
+            <h1>Project Pages & Posts</h1>
+
+            <ul>
+
+                <li>
+                    <a href="posts/post_Ridgecrest_Mw71_Animation.html">
+                        <img src="media/posts/Post1_thumb.jpg" alt="Post1_thumbnail" width="200" height="180">
+                        <h3>Movies from the 2019 Mw7.1 Ridgecrest Earthquake</h3>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+                </li>
+
+                <li>
+                    <a href="posts/post_damage_id_15s_moment_frame.html">
+                        <img src="media/posts/Post2_thumb.jpg" alt="Post2_thumbnail" width="200" height="180">
+                        <h3>Damage ID for a 15story Steel Moment Frame</h3>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum....</p>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="Default_Footer">
+            <div w3-include-html="html_includes/footer_default.html"></div>
+
+            <!-- Note: when using this include just reading the html file will not work 
+                (you need to open on a localhost) -->
+        </div>
+    </footer>
+
+</body>
+
+<script>
+    includeHTML();
+</script>
+
+<script>
+    get_theme_plain();
+</script>
+
+</html>
