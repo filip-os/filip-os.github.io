@@ -22,7 +22,7 @@ body {
     /*font-family: 'Courier New', Courier, monospace; */
     /*font-size: 1em;*/
     /*line-height: 1em;*/
-    font-size: 14px;
+    font-size: 16px;
     background-color: var(--bgnd_col);
     color: var(--txt_col);
     text-align: left;
@@ -30,7 +30,7 @@ body {
     /*margin: 0px 0px 0px 0px;*/
     padding: 0px 0px 0px 0px;
     width: 90%;
-    max-width: 700px;
+    max-width: 770px;
     margin-right: auto;
     margin-left: auto;
     /*zoom: 110%;*/
@@ -39,7 +39,7 @@ body {
 /*Headers*/
 
 h1, h2, h3, h4, h5, h6 {
-    font-size: 16px;
+    font-size: 18px;
     margin: 0px;
     margin-top: 22px;
     font-weight: bold;
@@ -165,10 +165,11 @@ footer {
 /*About Page*/
 
 .Picture_Banner {
-    width: 30%;
+    width: 28%;
     float: left;
     padding: 15px 15px 15px 15px;
-    font-size: 14.5px;
+    /*padding: 5% 5% 5% 5%;*/
+    font-size: 16.5px;
     margin-top: 20px;
 }
 
@@ -188,9 +189,12 @@ footer {
 }
 
 #profile_pic {
+    width: 65%;
+    min-width: 100px;
+    height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 14%;
+    margin-right: 25%;
     border-radius: 50%;
     /*border:2px solid var(--txt_col);*/
     border: 1.5px solid black;
@@ -278,7 +282,7 @@ html[data-theme="dark"] .svg_icons {
     margin: 0;
     margin-top: 10px;
     margin-right: 25px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .Posts_Container a {
