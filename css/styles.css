@@ -120,6 +120,10 @@ header li {
     padding: 0 5px 0 5px;
 }
 
+.Default_Container {
+    text-align: justify;
+}
+
 /*Default Container
 .Default_Container {
     width:90%;
