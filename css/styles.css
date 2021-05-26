@@ -307,3 +307,16 @@ html[data-theme="dark"] .svg_icons {
     margin-right: auto;
     width: 90%;
   }
+
+
+
+/*Edit: 2021: For the CSN map*/
+/* Always set the map height explicitly to define the size of the div
+    * element that contains the map. */
+#map {
+    height: 500px;
+    width: 100%;
+}
+  
+
+  
