@@ -1,4 +1,5 @@
-html, html[data-theme="light"] {
+html,
+html[data-theme="light"] {
     /*--bgnd_col: rgb(221, 201, 178);*/
     --bgnd_col: #f5f5f5;
     --txt_col: black;
@@ -12,13 +13,13 @@ html[data-theme="dark"] {
     /*background-color:#000;
     color:#DBDBDB;*/
     --bgnd_col: rgb(0, 0, 0);
-    --txt_col: #DBDBDB;
+    --txt_col: #dbdbdb;
 }
 
 /*Main Body*/
 
 body {
-    font-family: 'Source Code Pro', monospace, Courier;
+    font-family: "Source Code Pro", monospace, Courier;
     /*font-family: 'Courier New', Courier, monospace; */
     /*font-size: 1em;*/
     /*line-height: 1em;*/
@@ -38,7 +39,12 @@ body {
 
 /*Headers*/
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-size: 18px;
     margin: 0px;
     margin-top: 22px;
@@ -50,11 +56,28 @@ h1, h2, h3, h4, h5, h6 {
 a {
     text-decoration: underline;
     color: var(--txt_col);
+    /* color:rgb(216, 32, 32) */
 }
 
 a:hover {
+    /* text-decoration: none; */
     color: var(--bgnd_col);
     background-color: var(--txt_col);
+}
+
+.external-link a {
+    text-decoration: underline;
+    color: var(--txt_col);
+    filter: invert(10%) sepia(100%) saturate(5944%) hue-rotate(247deg) brightness(94%)
+        contrast(148%);
+    word-break: break-all; /* Breaks long words to fit within the container */
+    word-wrap: break-word; /* Ensures long words wrap to the next line */
+}
+
+.external-link a:hover {
+    color: var(--bgnd_col);
+    background-color: var(--txt_col);
+    /* filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(0deg) brightness(104%) contrast(101%); */
 }
 
 /*Same styling for the toggle background button as for links*/
@@ -97,7 +120,7 @@ header {
 
 header p {
     text-align: left;
-    margin: 0
+    margin: 0;
 }
 
 /*Header Links Styling*/
@@ -163,7 +186,7 @@ footer {
     margin: 40px auto 15px;
     padding-top: 5px;
     text-align: right;
-    line-height: 1.0;
+    line-height: 1;
 }
 
 /*About Page*/
@@ -234,7 +257,7 @@ footer {
 }
 
 .Social_Menu a {
-    margin: 20px
+    margin: 20px;
 }
 
 .Social_Menu a:hover {
@@ -250,7 +273,8 @@ footer {
 html[data-theme="dark"] .svg_icons {
     /*filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);*/
     /*green filter*/
-    filter: invert(78%) sepia(0%) saturate(1581%) hue-rotate(134deg) brightness(107%) contrast(108%);
+    filter: invert(78%) sepia(0%) saturate(1581%) hue-rotate(134deg) brightness(107%)
+        contrast(108%);
     /*grey filter*/
 }
 
@@ -264,7 +288,7 @@ html[data-theme="dark"] .svg_icons {
 .Posts_Container li {
     padding: 10px;
     overflow: auto;
-    border:1px solid var(--txt_col);
+    border: 1px solid var(--txt_col);
 }
 
 .Posts_Container li img {
@@ -274,11 +298,11 @@ html[data-theme="dark"] .svg_icons {
 }
 
 .Posts_Container li p {
-    margin: 10px 0px 0px 225px
+    margin: 10px 0px 0px 225px;
 }
 
 .Posts_Container li h2 {
-    margin: 0px 0px 0px 225px
+    margin: 0px 0px 0px 225px;
 }
 
 .Posts_Container li h3 {
@@ -307,9 +331,7 @@ html[data-theme="dark"] .svg_icons {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-  }
-
-
+}
 
 /*Edit: 2021: For the CSN map*/
 /* Always set the map height explicitly to define the size of the div
@@ -318,7 +340,6 @@ html[data-theme="dark"] .svg_icons {
     height: 500px;
     width: 100%;
 }
-  
 
 /* Media query for small screens */
 @media (max-width: 600px) {
@@ -327,7 +348,6 @@ html[data-theme="dark"] .svg_icons {
         margin-left: auto;
         margin-right: auto;
     }
-
 
     .About_text {
         margin: 30px 0 30px 0;
@@ -355,5 +375,3 @@ html[data-theme="dark"] .svg_icons {
         padding: 5px 30px 5px 5px;
     }
 }
-
-  
