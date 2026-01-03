@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <!--By Filippos-->
+    <!--Last edit Jan 2020-->
+
+    <script src="../js_functions/includeHTML.js"></script>
+
+    <script src="../js_functions/get_theme_plain.js"></script>
+
+    <script src="../js_functions/fun_mode_button_plain.js"></script>
+
+    <head>
+        <!-- Metatags -->
+        <meta charset="UTF-8" />
+        <meta name="author" content="Filippos" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Title -->
+        <title>
+            Publication: Identification of Sparse Damage in Steel-Frame Buildings Using
+            Dense Seismic Array Measurements
+        </title>
+
+        <!-- css stylink link -->
+        <link rel="stylesheet" href="../css/styles.css" />
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="Default_Header">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">/Home</a></li>
+                        <li><a href="../about.html">/CV</a></li>
+                        <li><a href="../research.html">/Research</a></li>
+                        <li><a href="../teaching.html">/Teaching</a></li>
+                        <li><a href="../publications.html">/Publications</a></li>
+                        <li><a href="../posts.html">/Posts</a></li>
+                        <li>
+                            <button id="btn_dark_mode" onclick="fun_mode_button_plain()">
+                                /Dark Mode
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Body -->
+        <main>
+            <div class="Default_Container">
+                <h1>
+                    ISWSHM2019 Proceedings: Identification of Sparse Damage in Steel-Frame
+                    Buildings Using Dense Seismic Array Measurements
+                </h1>
+                <p>
+                    The paper is available in:
+                    <a
+                        href="http://www.dpi-proceedings.com/index.php/shm2019/article/view/32398">
+                        <font color="blue">Structural Health Monitoring, 2019</font></a
+                    >.
+                </p>
+                <p>
+                    The results were also part of my talk during the Engineering Mechanics
+                    Institute Conference 2019 (EMI2019).
+                </p>
+                <br />
+
+                <p>Abstract:</p>
+                <p>
+                    There is an unprecedented increase in the number of real-time
+                    measurements produced by permanent, dense accelerometer arrays in
+                    buildings, an example being the Community Seismic Network. In the
+                    present work, damage identification techniques are developed by
+                    coupling such datasets with linear and nonlinear finite-element models
+                    of buildings. Damage in steel-frame buildings is manifested in
+                    localized areas as cracks in beam-column connections or as an average
+                    stiffness reduction. High-fidelity linear or nonlinear finite-element
+                    models are developed to allow for realistic behavior, including
+                    modeling nonlinearities associated with the opening and closing of
+                    cracks. L1 regularization techniques and sparse Bayesian learning
+                    tools are further developed fully in the time domain to reduce
+                    ill-conditioning and account for the sparsity of damage. The
+                    effectiveness of the proposed methods in identifying the location and
+                    severity of damage is demonstrated using simulated acceleration data
+                    from a three-story steel frame building, and a 15-story building in
+                    downtown Los Angeles that is fully instrumented.
+                </p>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="Default_Footer">
+                <div w3-include-html="../html_includes/footer_default.html"></div>
+            </div>
+        </footer>
+    </body>
+
+    <script>
+        includeHTML();
+    </script>
+
+    <script>
+        get_theme_plain();
+    </script>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <!--By Filippos-->
+    <!--Last edit Jan 2020-->
+
+    <script src="../js_functions/includeHTML.js"></script>
+
+    <script src="../js_functions/get_theme_plain.js"></script>
+
+    <script src="../js_functions/fun_mode_button_plain.js"></script>
+
+    <head>
+        <!-- Metatags -->
+        <meta charset="UTF-8" />
+        <meta name="author" content="Filippos" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Title -->
+        <title>Earthquake Spectra Paper Available Online</title>
+
+        <!-- css stylink link -->
+        <link rel="stylesheet" href="../css/styles.css" />
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="Default_Header">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">/Home</a></li>
+                        <li><a href="../about.html">/CV</a></li>
+                        <li><a href="../research.html">/Research</a></li>
+                        <li><a href="../teaching.html">/Teaching</a></li>
+                        <li><a href="../publications.html">/Publications</a></li>
+                        <li><a href="../posts.html">/Posts</a></li>
+                        <li>
+                            <button id="btn_dark_mode" onclick="fun_mode_button_plain()">
+                                /Dark Mode
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Body -->
+        <main>
+            <div class="Default_Container">
+                <h1>Earthquake Spectra Paper Available Online</h1>
+                <p>Our recent work is now available online in Earthquake Spectra.</p>
+            </div>
+            <div class="external-link">
+                <p>
+                    Link:
+                    <a href="https://doi.org/10.1177/87552930211003916">
+                        https://doi.org/10.1177/87552930211003916</a
+                    >.
+                </p>
+            </div>
+            <br />
+            <div class="Default_Container">
+                <p>
+                    The paper contains a comprehensive study of the ground-motion response
+                    in urban Los Angeles during the largest events (M7.1 and M6.4) of the
+                    2019 Ridgecrest earthquake sequence. Considering recordings from
+                    multiple regional seismic networks and from the very dense Community
+                    Seismic Network the study achieves unprecedented station numbers and
+                    density for the area. The paper further examines the correlation of
+                    the measured response with site parameters (Vs30 and basement depth),
+                    as well as the performance of state-of-the-art methods for estimating
+                    the ground motions: 3D finite-difference simulations and ground motion
+                    prediction equations.
+                </p>
+                <br />
+                <img
+                    src="../media/posts/Post7_Figures/fig1.jpg"
+                    alt="Simulation_predictions_comparison"
+                    class="center_img" />
+                <br />
+                <p style="text-align: center; font-size: 15px; font-style: italic">
+                    <b>Figure</b>: Data and model-predicted (simulations) RotD50 maps for
+                    the M7.1 earthquake. Column 1: Observations, Column 2: CVM-S model,
+                    Column 3: CVM-H model. Row 1: T = 3 s, Row 2: T = 6 s, Row 3: T = 8 s.
+                    Damping ratio = 5%. This is Figure 11 in the paper.
+                </p>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="Default_Footer">
+                <div w3-include-html="../html_includes/footer_default.html"></div>
+            </div>
+        </footer>
+    </body>
+
+    <script>
+        includeHTML();
+    </script>
+
+    <script>
+        get_theme_plain();
+    </script>
+</html>

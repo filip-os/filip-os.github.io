@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <!--By Filippos-->
+    <!--Last edit Jan 2020-->
+
+    <script src="../js_functions/includeHTML.js"></script>
+
+    <script src="../js_functions/get_theme_plain.js"></script>
+
+    <script src="../js_functions/fun_mode_button_plain.js"></script>
+
+    <head>
+        <!-- Metatags -->
+        <meta charset="UTF-8" />
+        <meta name="author" content="Filippos" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Title -->
+        <title>SCEC2020 Poster Archive Now Available</title>
+
+        <!-- css stylink link -->
+        <link rel="stylesheet" href="../css/styles.css" />
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="Default_Header">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">/Home</a></li>
+                        <li><a href="../about.html">/CV</a></li>
+                        <li><a href="../research.html">/Research</a></li>
+                        <li><a href="../teaching.html">/Teaching</a></li>
+                        <li><a href="../publications.html">/Publications</a></li>
+                        <li><a href="../posts.html">/Posts</a></li>
+                        <li>
+                            <button id="btn_dark_mode" onclick="fun_mode_button_plain()">
+                                /Dark Mode
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Body -->
+        <main>
+            <div class="Default_Container">
+                <h1>SCEC2020 Poster Archive Now Available</h1>
+                <p>
+                    The SCEC2020 Archive of our poster is now available. The poster
+                    includes our study of the correlation of the observations with
+                    basement depth and Vs30, as well as a comparison of the data with 3D
+                    finite difference simulations predictions.
+                </p>
+                <p>
+                    The poster is available in:
+                    <a href="https://www.scec.org/meetings/2020/am/poster/071">
+                        <font color="blue">SCEC2020 Poster Archive</font></a
+                    >.
+                </p>
+
+                <br />
+
+                <p>Abstract:</p>
+                <p>
+                    We study ground motion response in urban Los Angeles during the two
+                    largest events (M7.1 & M6.4) of the 2019 Ridgecrest earthquake
+                    sequence, using recordings from multiple regional seismic networks as
+                    well as a subset of stations from the much denser Community Seismic
+                    Network (CSN - csn.caltech.edu), which is a dense 700-station,
+                    strong-motion network permanently installed in the area of urban Los
+                    Angeles. The response spectral (pseudo) accelerations (SA) for a
+                    selection of periods of engineering significance are calculated.
+                    Significant SA amplification is present and reproducible between the
+                    two events. In general, the SA is coherent across the basin at periods
+                    greater than 4 seconds, shows significant amplification in the
+                    sedimentary basin, but the largest amplifications are not near the
+                    deepest part of the basin. At shorter periods the motions are stronger
+                    and less spatially coherent, indicating a high-level of scattering at
+                    the kilometer scale length. We examine possible correlations of the
+                    computed SA with two common geotechnical parameters: basement depth
+                    and Vs30, and find no significant correlation for the 1-s period,
+                    while a correlation appears and gets stronger for longer periods. In
+                    the second part of the study, we examine the performance of 3D finite
+                    difference simulations in estimating the ground motions and SA for the
+                    largest event of the Ridgecrest earthquake sequence, using the two
+                    different Southern California Earthquake Center 3D Community Velocity
+                    Models: CVM-S and CVM-H. Overall, the simulations match the mean
+                    amplitude and variance of the observations reasonably well. However,
+                    they are not able to reproduce the exact locations of the maximum SAs.
+                </p>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="Default_Footer">
+                <div w3-include-html="../html_includes/footer_default.html"></div>
+            </div>
+        </footer>
+    </body>
+
+    <script>
+        includeHTML();
+    </script>
+
+    <script>
+        get_theme_plain();
+    </script>
+</html>

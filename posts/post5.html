@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <!--By Filippos-->
+    <!--Last edit Jan 2020-->
+
+    <script src="../js_functions/includeHTML.js"></script>
+
+    <script src="../js_functions/get_theme_plain.js"></script>
+
+    <script src="../js_functions/fun_mode_button_plain.js"></script>
+
+    <head>
+        <!-- Metatags -->
+        <meta charset="UTF-8" />
+        <meta name="author" content="Filippos" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Title -->
+        <title>Wired Article</title>
+
+        <!-- css stylink link -->
+        <link rel="stylesheet" href="../css/styles.css" />
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="Default_Header">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">/Home</a></li>
+                        <li><a href="../about.html">/CV</a></li>
+                        <li><a href="../research.html">/Research</a></li>
+                        <li><a href="../teaching.html">/Teaching</a></li>
+                        <li><a href="../publications.html">/Publications</a></li>
+                        <li><a href="../posts.html">/Posts</a></li>
+                        <li>
+                            <button id="btn_dark_mode" onclick="fun_mode_button_plain()">
+                                /Dark Mode
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Body -->
+        <main>
+            <div class="Default_Container">
+                <h1>Wired Article</h1>
+                <p>Our Ridgecrest earthquake sequence study was featured on Wired.</p>
+                <p>
+                    The Seismological Research Letters paper is available in:
+                    <a href="https://doi.org/10.1785/0220200170">
+                        <font color="blue">Seismological Research Letters, 2020</font></a
+                    >.
+                </p>
+                <p>
+                    Article link:
+                    <a
+                        href="https://www.wired.com/story/the-most-sway-prone-buildings-in-la-arent-where-you-expect/">
+                        <font color="blue">Wired, 10 Oct 2020</font></a
+                    >.
+                </p>
+                <br />
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="Default_Footer">
+                <div w3-include-html="../html_includes/footer_default.html"></div>
+            </div>
+        </footer>
+    </body>
+
+    <script>
+        includeHTML();
+    </script>
+
+    <script>
+        get_theme_plain();
+    </script>
+</html>

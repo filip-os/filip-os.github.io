@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <!--By Filippos-->
+    <!--Last edit Jan 2020-->
+
+    <script src="../js_functions/includeHTML.js"></script>
+
+    <script src="../js_functions/get_theme_plain.js"></script>
+
+    <script src="../js_functions/fun_mode_button_plain.js"></script>
+
+    <head>
+        <!-- Metatags -->
+        <meta charset="UTF-8" />
+        <meta name="author" content="Filippos" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Title -->
+        <title>Mesh Rebuild Tool Performance Improvement</title>
+
+        <!-- css stylink link -->
+        <link rel="stylesheet" href="../css/styles.css" />
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="Default_Header">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">/Home</a></li>
+                        <li><a href="../about.html">/CV</a></li>
+                        <li><a href="../research.html">/Research</a></li>
+                        <li><a href="../teaching.html">/Teaching</a></li>
+                        <li><a href="../publications.html">/Publications</a></li>
+                        <li><a href="../posts.html">/Posts</a></li>
+                        <li>
+                            <button id="btn_dark_mode" onclick="fun_mode_button_plain()">
+                                /Dark Mode
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Body -->
+        <main>
+            <div class="Default_Container">
+                <h1>Mesh Rebuild Tool Performance Improvement</h1>
+                <p>
+                    Our recent development on improving the performance of the mesh
+                    rebuild tool in HyperMesh 2023 was released.
+                </p>
+            </div>
+            <div class="external-link">
+                <p>
+                    Link:
+                    <a
+                        href="https://2023.help.altair.com/2023.1/hwcfdsolvers/altair_help/topics/release_notes/rn_2023_hypermesh_meshing_r.htm">
+                        https://2023.help.altair.com/2023.1/hwcfdsolvers/altair_help/topics/release_notes/rn_2023_hypermesh_meshing_r.htm</a
+                    >.
+                </p>
+            </div>
+            <br />
+            <div class="Default_Container">
+                <p>
+                    Over the past few months a big amount of my development work was put
+                    into improving the performance of the mesh Rebuild tool. In the 2023
+                    release we have achieved a huge performance boost, with up to 90%
+                    speed increase for very large (number of elements) models.
+                </p>
+                <br />
+                <!-- <p>
+                    Related HyperWorks 2023.0 Release Highlight, presented by
+                    the PMs:
+                </p>
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/watch?v=Rok5AZS2o18&t=1780s"
+                    frameborder="0"
+                    allowfullscreen></iframe> -->
+            </div>
+            <div class="external-link">
+                <p>Related HyperWorks 2023.0 Release Highlight, presented by the PMs:</p>
+                <p>
+                    Link:
+                    <a href="https://www.youtube.com/watch?v=Rok5AZS2o18&t=1780s">
+                        https://www.youtube.com/watch?v=Rok5AZS2o18&t=1780s</a
+                    >.
+                </p>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="Default_Footer">
+                <div w3-include-html="../html_includes/footer_default.html"></div>
+            </div>
+        </footer>
+    </body>
+
+    <script>
+        includeHTML();
+    </script>
+
+    <script>
+        get_theme_plain();
+    </script>
+</html>
