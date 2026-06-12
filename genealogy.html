@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <!--By Filippos-->
+    <!--Last edit Jun 2026-->
+
+    <script src="js_functions/includeHTML.js"></script>
+
+    <script src="js_functions/get_theme_plain.js"></script>
+
+    <script src="js_functions/fun_mode_button_plain.js"></script>
+
+    <head>
+        <!-- Metatags -->
+        <meta charset="UTF-8" />
+        <meta name="author" content="Filippos" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Title -->
+        <title>Academic Genealogy</title>
+
+        <!-- css stylink link -->
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="Default_Header">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">/Home</a></li>
+                        <li><a href="about.html">/CV</a></li>
+                        <li><a href="research.html">/Research</a></li>
+                        <li><a href="teaching.html">/Teaching</a></li>
+                        <li><a href="publications.html">/Publications</a></li>
+                        <li><a href="posts.html">/Posts</a></li>
+                        <li>
+                            <button id="btn_dark_mode" onclick="fun_mode_button_plain()">
+                                /Dark Mode
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Body -->
+        <main>
+            <div class="Default_Container">
+                <h1>Academic Genealogy</h1>
+
+                <p>
+                    My full academic genealogy via the
+                    <a href="https://www.genealogy.math.ndsu.nodak.edu/" target="_blank">Mathematics Genealogy Project</a>.
+                    [<a href="about.html">back to CV</a>]
+                </p>
+
+                <hr />
+
+                <div style="margin: 20px 0;">
+                    <img
+                        src="media/academic_genealogy_full.svg"
+                        alt="Full Academic Genealogy"
+                        style="max-width: 100%; height: auto;" />
+                </div>
+
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="Default_Footer">
+                <div w3-include-html="html_includes/footer_default.html"></div>
+            </div>
+        </footer>
+    </body>
+
+    <script>
+        includeHTML();
+    </script>
+
+    <script>
+        get_theme_plain();
+    </script>
+</html>

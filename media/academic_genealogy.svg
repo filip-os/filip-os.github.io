@@ -1,0 +1,284 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="811pt" height="817pt" viewBox="0.00 0.00 811.00 817.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 812.8)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-812.8 806.68,-812.8 806.68,4 -4,4"/>
+<!-- 119178 -->
+<g id="node1" class="node">
+<title>119178</title>
+<path fill="#f4a261" stroke="black" d="M207.69,-808.8C207.69,-808.8 22.4,-808.8 22.4,-808.8 16.4,-808.8 10.4,-802.8 10.4,-796.8 10.4,-796.8 10.4,-780 10.4,-780 10.4,-774 16.4,-768 22.4,-768 22.4,-768 207.69,-768 207.69,-768 213.69,-768 219.69,-774 219.69,-780 219.69,-780 219.69,-796.8 219.69,-796.8 219.69,-802.8 213.69,-808.8 207.69,-808.8"/>
+<text xml:space="preserve" text-anchor="middle" x="115.05" y="-791.7" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">Andreas (Andries van Wesel) Vesalius</text>
+<text xml:space="preserve" text-anchor="middle" x="115.05" y="-778.5" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">(1537)</text>
+</g>
+<!-- 49057 -->
+<g id="node8" class="node">
+<title>49057</title>
+<path fill="#457b9d" stroke="black" d="M218.1,-578.4C218.1,-578.4 12,-578.4 12,-578.4 6,-578.4 0,-572.4 0,-566.4 0,-566.4 0,-549.6 0,-549.6 0,-543.6 6,-537.6 12,-537.6 12,-537.6 218.1,-537.6 218.1,-537.6 224.1,-537.6 230.1,-543.6 230.1,-549.6 230.1,-549.6 230.1,-566.4 230.1,-566.4 230.1,-572.4 224.1,-578.4 218.1,-578.4"/>
+<text xml:space="preserve" text-anchor="middle" x="115.05" y="-561.3" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Hermann Ludwig Ferdinand von Helmholtz</text>
+<text xml:space="preserve" text-anchor="middle" x="115.05" y="-548.1" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Universität Berlin (1842)</text>
+</g>
+<!-- 119178&#45;&gt;49057 -->
+<g id="edge3" class="edge">
+<title>119178-&gt;49057</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M115.05,-767.53C115.05,-727.69 115.05,-637.8 115.05,-590.1"/>
+<polygon fill="black" stroke="black" points="118.55,-590.17 115.05,-580.17 111.55,-590.17 118.55,-590.17"/>
+</g>
+<!-- 126177 -->
+<g id="node2" class="node">
+<title>126177</title>
+<path fill="#f4a261" stroke="black" d="M657.66,-808.8C657.66,-808.8 464.43,-808.8 464.43,-808.8 458.43,-808.8 452.43,-802.8 452.43,-796.8 452.43,-796.8 452.43,-780 452.43,-780 452.43,-774 458.43,-768 464.43,-768 464.43,-768 657.66,-768 657.66,-768 663.66,-768 669.66,-774 669.66,-780 669.66,-780 669.66,-796.8 669.66,-796.8 669.66,-802.8 663.66,-808.8 657.66,-808.8"/>
+<text xml:space="preserve" text-anchor="middle" x="561.05" y="-791.7" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">Nicolaus (Mikołaj Kopernik) Copernicus</text>
+<text xml:space="preserve" text-anchor="middle" x="561.05" y="-778.5" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">(1499)</text>
+</g>
+<!-- 60985 -->
+<g id="node3" class="node">
+<title>60985</title>
+<path fill="#2a9d8f" stroke="black" d="M622.21,-732C622.21,-732 499.89,-732 499.89,-732 493.89,-732 487.89,-726 487.89,-720 487.89,-720 487.89,-703.2 487.89,-703.2 487.89,-697.2 493.89,-691.2 499.89,-691.2 499.89,-691.2 622.21,-691.2 622.21,-691.2 628.21,-691.2 634.21,-697.2 634.21,-703.2 634.21,-703.2 634.21,-720 634.21,-720 634.21,-726 628.21,-732 622.21,-732"/>
+<text xml:space="preserve" text-anchor="middle" x="561.05" y="-714.9" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Gottfried Wilhelm Leibniz</text>
+<text xml:space="preserve" text-anchor="middle" x="561.05" y="-701.7" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Universität Leipzig (1666)</text>
+</g>
+<!-- 126177&#45;&gt;60985 -->
+<g id="edge2" class="edge">
+<title>126177-&gt;60985</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M561.05,-767.75C561.05,-760.42 561.05,-751.91 561.05,-743.79"/>
+<polygon fill="black" stroke="black" points="564.55,-743.89 561.05,-733.89 557.55,-743.89 564.55,-743.89"/>
+</g>
+<!-- 54440 -->
+<g id="node4" class="node">
+<title>54440</title>
+<path fill="#2a9d8f" stroke="black" d="M779.54,-732C779.54,-732 664.56,-732 664.56,-732 658.56,-732 652.56,-726 652.56,-720 652.56,-720 652.56,-703.2 652.56,-703.2 652.56,-697.2 658.56,-691.2 664.56,-691.2 664.56,-691.2 779.54,-691.2 779.54,-691.2 785.54,-691.2 791.54,-697.2 791.54,-703.2 791.54,-703.2 791.54,-720 791.54,-720 791.54,-726 785.54,-732 779.54,-732"/>
+<text xml:space="preserve" text-anchor="middle" x="722.05" y="-714.9" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Jacob Bernoulli</text>
+<text xml:space="preserve" text-anchor="middle" x="722.05" y="-701.7" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Universität Basel (1676)</text>
+</g>
+<!-- 60985&#45;&gt;54440 -->
+<g id="edge1" class="edge">
+<title>60985-&gt;54440</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M634.63,-711.6C636.76,-711.6 638.88,-711.6 641.01,-711.6"/>
+<polygon fill="black" stroke="black" points="640.87,-715.1 650.87,-711.6 640.87,-708.1 640.87,-715.1"/>
+</g>
+<!-- 53410 -->
+<g id="node5" class="node">
+<title>53410</title>
+<path fill="#2a9d8f" stroke="black" d="M779.54,-655.2C779.54,-655.2 664.56,-655.2 664.56,-655.2 658.56,-655.2 652.56,-649.2 652.56,-643.2 652.56,-643.2 652.56,-626.4 652.56,-626.4 652.56,-620.4 658.56,-614.4 664.56,-614.4 664.56,-614.4 779.54,-614.4 779.54,-614.4 785.54,-614.4 791.54,-620.4 791.54,-626.4 791.54,-626.4 791.54,-643.2 791.54,-643.2 791.54,-649.2 785.54,-655.2 779.54,-655.2"/>
+<text xml:space="preserve" text-anchor="middle" x="722.05" y="-638.1" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Johann Bernoulli</text>
+<text xml:space="preserve" text-anchor="middle" x="722.05" y="-624.9" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Universität Basel (1690)</text>
+</g>
+<!-- 54440&#45;&gt;53410 -->
+<g id="edge7" class="edge">
+<title>54440-&gt;53410</title>
+<path fill="none" stroke="black" stroke-width="2" d="M722.05,-690.95C722.05,-683.62 722.05,-675.11 722.05,-666.99"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="725.55,-668.61 722.05,-658.61 718.55,-668.61 725.55,-668.61"/>
+</g>
+<!-- 38586 -->
+<g id="node6" class="node">
+<title>38586</title>
+<path fill="#2a9d8f" stroke="black" d="M779.54,-578.4C779.54,-578.4 664.56,-578.4 664.56,-578.4 658.56,-578.4 652.56,-572.4 652.56,-566.4 652.56,-566.4 652.56,-549.6 652.56,-549.6 652.56,-543.6 658.56,-537.6 664.56,-537.6 664.56,-537.6 779.54,-537.6 779.54,-537.6 785.54,-537.6 791.54,-543.6 791.54,-549.6 791.54,-549.6 791.54,-566.4 791.54,-566.4 791.54,-572.4 785.54,-578.4 779.54,-578.4"/>
+<text xml:space="preserve" text-anchor="middle" x="722.05" y="-561.3" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Leonhard Euler</text>
+<text xml:space="preserve" text-anchor="middle" x="722.05" y="-548.1" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Universität Basel (1726)</text>
+</g>
+<!-- 53410&#45;&gt;38586 -->
+<g id="edge8" class="edge">
+<title>53410-&gt;38586</title>
+<path fill="none" stroke="black" stroke-width="2" d="M722.05,-614.15C722.05,-606.82 722.05,-598.31 722.05,-590.19"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="725.55,-591.81 722.05,-581.81 718.55,-591.81 725.55,-591.81"/>
+</g>
+<!-- 124667 -->
+<g id="node14" class="node">
+<title>124667</title>
+<path fill="#457b9d" stroke="black" d="M790.68,-501.6C790.68,-501.6 653.42,-501.6 653.42,-501.6 647.42,-501.6 641.42,-495.6 641.42,-489.6 641.42,-489.6 641.42,-472.8 641.42,-472.8 641.42,-466.8 647.42,-460.8 653.42,-460.8 653.42,-460.8 790.68,-460.8 790.68,-460.8 796.68,-460.8 802.68,-466.8 802.68,-472.8 802.68,-472.8 802.68,-489.6 802.68,-489.6 802.68,-495.6 796.68,-501.6 790.68,-501.6"/>
+<text xml:space="preserve" text-anchor="middle" x="722.05" y="-484.5" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Jacobus Henricus van 't Hoff</text>
+<text xml:space="preserve" text-anchor="middle" x="722.05" y="-471.3" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Universiteit Utrecht (1874)</text>
+</g>
+<!-- 38586&#45;&gt;124667 -->
+<g id="edge5" class="edge">
+<title>38586-&gt;124667</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M722.05,-537.35C722.05,-530.02 722.05,-521.51 722.05,-513.39"/>
+<polygon fill="black" stroke="black" points="725.55,-513.49 722.05,-503.49 718.55,-513.49 725.55,-513.49"/>
+</g>
+<!-- 102483 -->
+<g id="node7" class="node">
+<title>102483</title>
+<path fill="#457b9d" stroke="black" d="M409.96,-578.4C409.96,-578.4 260.13,-578.4 260.13,-578.4 254.13,-578.4 248.13,-572.4 248.13,-566.4 248.13,-566.4 248.13,-549.6 248.13,-549.6 248.13,-543.6 254.13,-537.6 260.13,-537.6 260.13,-537.6 409.96,-537.6 409.96,-537.6 415.96,-537.6 421.96,-543.6 421.96,-549.6 421.96,-549.6 421.96,-566.4 421.96,-566.4 421.96,-572.4 415.96,-578.4 409.96,-578.4"/>
+<text xml:space="preserve" text-anchor="middle" x="335.05" y="-561.3" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">George Gabriel Stokes</text>
+<text xml:space="preserve" text-anchor="middle" x="335.05" y="-548.1" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">University of Cambridge (1841)</text>
+</g>
+<!-- 101979 -->
+<g id="node10" class="node">
+<title>101979</title>
+<path fill="#457b9d" stroke="black" d="M418.82,-501.6C418.82,-501.6 251.27,-501.6 251.27,-501.6 245.27,-501.6 239.27,-495.6 239.27,-489.6 239.27,-489.6 239.27,-472.8 239.27,-472.8 239.27,-466.8 245.27,-460.8 251.27,-460.8 251.27,-460.8 418.82,-460.8 418.82,-460.8 424.82,-460.8 430.82,-466.8 430.82,-472.8 430.82,-472.8 430.82,-489.6 430.82,-489.6 430.82,-495.6 424.82,-501.6 418.82,-501.6"/>
+<text xml:space="preserve" text-anchor="middle" x="335.05" y="-484.5" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">John William Strutt (Lord Rayleigh)</text>
+<text xml:space="preserve" text-anchor="middle" x="335.05" y="-471.3" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">University of Cambridge (1868)</text>
+</g>
+<!-- 102483&#45;&gt;101979 -->
+<g id="edge9" class="edge">
+<title>102483-&gt;101979</title>
+<path fill="none" stroke="black" stroke-width="2" d="M335.05,-537.35C335.05,-530.02 335.05,-521.51 335.05,-513.39"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="338.55,-515.01 335.05,-505.01 331.55,-515.01 338.55,-515.01"/>
+</g>
+<!-- 72170 -->
+<g id="node12" class="node">
+<title>72170</title>
+<path fill="#457b9d" stroke="black" d="M194.35,-499.2C194.35,-499.2 67.75,-499.2 67.75,-499.2 61.75,-499.2 55.75,-493.2 55.75,-487.2 55.75,-487.2 55.75,-475.2 55.75,-475.2 55.75,-469.2 61.75,-463.2 67.75,-463.2 67.75,-463.2 194.35,-463.2 194.35,-463.2 200.35,-463.2 206.35,-469.2 206.35,-475.2 206.35,-475.2 206.35,-487.2 206.35,-487.2 206.35,-493.2 200.35,-499.2 194.35,-499.2"/>
+<text xml:space="preserve" text-anchor="middle" x="131.05" y="-477.9" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Albert Abraham Michelson</text>
+</g>
+<!-- 49057&#45;&gt;72170 -->
+<g id="edge12" class="edge">
+<title>49057-&gt;72170</title>
+<path fill="none" stroke="black" stroke-width="2" d="M119.25,-537.35C120.99,-529.22 123.04,-519.64 124.94,-510.76"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="128.01,-513.15 126.68,-502.64 121.16,-511.69 128.01,-513.15"/>
+</g>
+<!-- 105806 -->
+<g id="node9" class="node">
+<title>105806</title>
+<path fill="#457b9d" stroke="black" d="M601.96,-578.4C601.96,-578.4 452.13,-578.4 452.13,-578.4 446.13,-578.4 440.13,-572.4 440.13,-566.4 440.13,-566.4 440.13,-549.6 440.13,-549.6 440.13,-543.6 446.13,-537.6 452.13,-537.6 452.13,-537.6 601.96,-537.6 601.96,-537.6 607.96,-537.6 613.96,-543.6 613.96,-549.6 613.96,-549.6 613.96,-566.4 613.96,-566.4 613.96,-572.4 607.96,-578.4 601.96,-578.4"/>
+<text xml:space="preserve" text-anchor="middle" x="527.05" y="-561.3" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">James Clerk Maxwell</text>
+<text xml:space="preserve" text-anchor="middle" x="527.05" y="-548.1" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">University of Cambridge (1854)</text>
+</g>
+<!-- 105806&#45;&gt;101979 -->
+<g id="edge10" class="edge">
+<title>105806-&gt;101979</title>
+<path fill="none" stroke="black" stroke-width="2" d="M476.1,-537.15C451.59,-527.6 422.02,-516.08 396.29,-506.06"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="399.31,-503.48 388.72,-503.11 396.77,-510 399.31,-503.48"/>
+</g>
+<!-- 50701 -->
+<g id="node11" class="node">
+<title>50701</title>
+<path fill="#457b9d" stroke="black" d="M610.96,-501.6C610.96,-501.6 461.13,-501.6 461.13,-501.6 455.13,-501.6 449.13,-495.6 449.13,-489.6 449.13,-489.6 449.13,-472.8 449.13,-472.8 449.13,-466.8 455.13,-460.8 461.13,-460.8 461.13,-460.8 610.96,-460.8 610.96,-460.8 616.96,-460.8 622.96,-466.8 622.96,-472.8 622.96,-472.8 622.96,-489.6 622.96,-489.6 622.96,-495.6 616.96,-501.6 610.96,-501.6"/>
+<text xml:space="preserve" text-anchor="middle" x="536.05" y="-484.5" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Joseph John Thomson</text>
+<text xml:space="preserve" text-anchor="middle" x="536.05" y="-471.3" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">University of Cambridge (1883)</text>
+</g>
+<!-- 101979&#45;&gt;50701 -->
+<g id="edge11" class="edge">
+<title>101979-&gt;50701</title>
+<path fill="none" stroke="black" stroke-width="2" d="M431.23,-481.2C433.34,-481.2 435.45,-481.2 437.56,-481.2"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="435.81,-484.7 445.81,-481.2 435.81,-477.7 435.81,-484.7"/>
+</g>
+<!-- 67804 -->
+<g id="node15" class="node">
+<title>67804</title>
+<path fill="#e9c46a" stroke="black" d="M601.18,-348C601.18,-348 470.92,-348 470.92,-348 464.92,-348 458.92,-342 458.92,-336 458.92,-336 458.92,-319.2 458.92,-319.2 458.92,-313.2 464.92,-307.2 470.92,-307.2 470.92,-307.2 601.18,-307.2 601.18,-307.2 607.18,-307.2 613.18,-313.2 613.18,-319.2 613.18,-319.2 613.18,-336 613.18,-336 613.18,-342 607.18,-348 601.18,-348"/>
+<text xml:space="preserve" text-anchor="middle" x="536.05" y="-330.9" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">Frank Press</text>
+<text xml:space="preserve" text-anchor="middle" x="536.05" y="-317.7" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">Columbia University (1949)</text>
+</g>
+<!-- 50701&#45;&gt;67804 -->
+<g id="edge4" class="edge">
+<title>50701-&gt;67804</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M536.05,-460.38C536.05,-434.73 536.05,-389.76 536.05,-359.58"/>
+<polygon fill="black" stroke="black" points="539.55,-359.94 536.05,-349.94 532.55,-359.94 539.55,-359.94"/>
+</g>
+<!-- 72167 -->
+<g id="node13" class="node">
+<title>72167</title>
+<path fill="#457b9d" stroke="black" d="M234.18,-424.8C234.18,-424.8 103.92,-424.8 103.92,-424.8 97.92,-424.8 91.92,-418.8 91.92,-412.8 91.92,-412.8 91.92,-396 91.92,-396 91.92,-390 97.92,-384 103.92,-384 103.92,-384 234.18,-384 234.18,-384 240.18,-384 246.18,-390 246.18,-396 246.18,-396 246.18,-412.8 246.18,-412.8 246.18,-418.8 240.18,-424.8 234.18,-424.8"/>
+<text xml:space="preserve" text-anchor="middle" x="169.05" y="-407.7" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Robert Andrews Millikan</text>
+<text xml:space="preserve" text-anchor="middle" x="169.05" y="-394.5" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Columbia University (1895)</text>
+</g>
+<!-- 72170&#45;&gt;72167 -->
+<g id="edge13" class="edge">
+<title>72170-&gt;72167</title>
+<path fill="none" stroke="black" stroke-width="2" d="M139.86,-462.85C144,-454.7 149.06,-444.74 153.8,-435.42"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="156.16,-438.5 157.57,-428 149.92,-435.33 156.16,-438.5"/>
+</g>
+<!-- 286855 -->
+<g id="node16" class="node">
+<title>286855</title>
+<path fill="#e9c46a" stroke="black" d="M341.37,-348C341.37,-348 148.72,-348 148.72,-348 142.72,-348 136.72,-342 136.72,-336 136.72,-336 136.72,-319.2 136.72,-319.2 136.72,-313.2 142.72,-307.2 148.72,-307.2 148.72,-307.2 341.37,-307.2 341.37,-307.2 347.37,-307.2 353.37,-313.2 353.37,-319.2 353.37,-319.2 353.37,-336 353.37,-336 353.37,-342 347.37,-348 341.37,-348"/>
+<text xml:space="preserve" text-anchor="middle" x="245.05" y="-330.9" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">Russell Watson Raitt</text>
+<text xml:space="preserve" text-anchor="middle" x="245.05" y="-317.7" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">California Institute of Technology (1935)</text>
+</g>
+<!-- 72167&#45;&gt;286855 -->
+<g id="edge14" class="edge">
+<title>72167-&gt;286855</title>
+<path fill="none" stroke="black" stroke-width="2" d="M189.02,-383.75C197.5,-375.4 207.55,-365.51 216.77,-356.43"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="218.12,-360.01 222.79,-350.5 213.21,-355.02 218.12,-360.01"/>
+</g>
+<!-- 124667&#45;&gt;67804 -->
+<g id="edge6" class="edge">
+<title>124667-&gt;67804</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M697.73,-460.38C664.87,-433.6 606.16,-385.74 569.25,-355.66"/>
+<polygon fill="black" stroke="black" points="571.51,-352.99 561.54,-349.38 567.08,-358.41 571.51,-352.99"/>
+</g>
+<!-- 321389 -->
+<g id="node17" class="node">
+<title>321389</title>
+<path fill="#e9c46a" stroke="black" d="M619.37,-271.2C619.37,-271.2 426.72,-271.2 426.72,-271.2 420.72,-271.2 414.72,-265.2 414.72,-259.2 414.72,-259.2 414.72,-242.4 414.72,-242.4 414.72,-236.4 420.72,-230.4 426.72,-230.4 426.72,-230.4 619.37,-230.4 619.37,-230.4 625.37,-230.4 631.37,-236.4 631.37,-242.4 631.37,-242.4 631.37,-259.2 631.37,-259.2 631.37,-265.2 625.37,-271.2 619.37,-271.2"/>
+<text xml:space="preserve" text-anchor="middle" x="523.05" y="-254.1" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">Don Lynn Anderson</text>
+<text xml:space="preserve" text-anchor="middle" x="523.05" y="-240.9" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">California Institute of Technology (1962)</text>
+</g>
+<!-- 67804&#45;&gt;321389 -->
+<g id="edge16" class="edge">
+<title>67804-&gt;321389</title>
+<path fill="none" stroke="black" stroke-width="2" d="M532.63,-306.95C531.34,-299.53 529.84,-290.91 528.42,-282.71"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="532.16,-283.82 527,-274.56 525.27,-285.02 532.16,-283.82"/>
+</g>
+<!-- 194571 -->
+<g id="node19" class="node">
+<title>194571</title>
+<path fill="#e9c46a" stroke="black" d="M359.03,-271.2C359.03,-271.2 159.06,-271.2 159.06,-271.2 153.06,-271.2 147.06,-265.2 147.06,-259.2 147.06,-259.2 147.06,-242.4 147.06,-242.4 147.06,-236.4 153.06,-230.4 159.06,-230.4 159.06,-230.4 359.03,-230.4 359.03,-230.4 365.03,-230.4 371.03,-236.4 371.03,-242.4 371.03,-242.4 371.03,-259.2 371.03,-259.2 371.03,-265.2 365.03,-271.2 359.03,-271.2"/>
+<text xml:space="preserve" text-anchor="middle" x="259.05" y="-254.1" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">Donald Vincent Helmberger</text>
+<text xml:space="preserve" text-anchor="middle" x="259.05" y="-240.9" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">University of California, San Diego (1967)</text>
+</g>
+<!-- 286855&#45;&gt;194571 -->
+<g id="edge15" class="edge">
+<title>286855-&gt;194571</title>
+<path fill="none" stroke="black" stroke-width="2" d="M248.73,-306.95C250.11,-299.53 251.73,-290.91 253.26,-282.71"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="256.39,-285.03 254.79,-274.56 249.51,-283.74 256.39,-285.03"/>
+</g>
+<!-- 321386 -->
+<g id="node21" class="node">
+<title>321386</title>
+<path fill="#6d6875" stroke="black" d="M593.37,-117.6C593.37,-117.6 400.72,-117.6 400.72,-117.6 394.72,-117.6 388.72,-111.6 388.72,-105.6 388.72,-105.6 388.72,-88.8 388.72,-88.8 388.72,-82.8 394.72,-76.8 400.72,-76.8 400.72,-76.8 593.37,-76.8 593.37,-76.8 599.37,-76.8 605.37,-82.8 605.37,-88.8 605.37,-88.8 605.37,-105.6 605.37,-105.6 605.37,-111.6 599.37,-117.6 593.37,-117.6"/>
+<text xml:space="preserve" text-anchor="middle" x="497.05" y="-100.5" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Monica Kohler</text>
+<text xml:space="preserve" text-anchor="middle" x="497.05" y="-87.3" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">California Institute of Technology (1995)</text>
+</g>
+<!-- 321389&#45;&gt;321386 -->
+<g id="edge17" class="edge">
+<title>321389-&gt;321386</title>
+<path fill="none" stroke="black" stroke-width="2" d="M519.65,-229.98C515.25,-204.33 507.54,-159.36 502.36,-129.18"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="506.1,-130.27 500.96,-121.01 499.2,-131.46 506.1,-130.27"/>
+</g>
+<!-- 321388 -->
+<g id="node18" class="node">
+<title>321388</title>
+<path fill="#e9c46a" stroke="black" d="M728.75,-194.4C728.75,-194.4 537.35,-194.4 537.35,-194.4 531.35,-194.4 525.35,-188.4 525.35,-182.4 525.35,-182.4 525.35,-165.6 525.35,-165.6 525.35,-159.6 531.35,-153.6 537.35,-153.6 537.35,-153.6 728.75,-153.6 728.75,-153.6 734.75,-153.6 740.75,-159.6 740.75,-165.6 740.75,-165.6 740.75,-182.4 740.75,-182.4 740.75,-188.4 734.75,-194.4 728.75,-194.4"/>
+<text xml:space="preserve" text-anchor="middle" x="633.05" y="-177.3" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">Toshiro Tanimoto</text>
+<text xml:space="preserve" text-anchor="middle" x="633.05" y="-164.1" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">University of California, Berkeley (1982)</text>
+</g>
+<!-- 321388&#45;&gt;321386 -->
+<g id="edge18" class="edge">
+<title>321388-&gt;321386</title>
+<path fill="none" stroke="black" stroke-width="2" d="M596.96,-153.15C580.38,-144.03 560.53,-133.12 542.91,-123.42"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="545.93,-121.09 535.49,-119.34 542.56,-127.23 545.93,-121.09"/>
+</g>
+<!-- 194568 -->
+<g id="node20" class="node">
+<title>194568</title>
+<path fill="#6d6875" stroke="black" d="M380.37,-194.4C380.37,-194.4 187.72,-194.4 187.72,-194.4 181.72,-194.4 175.72,-188.4 175.72,-182.4 175.72,-182.4 175.72,-165.6 175.72,-165.6 175.72,-159.6 181.72,-153.6 187.72,-153.6 187.72,-153.6 380.37,-153.6 380.37,-153.6 386.37,-153.6 392.37,-159.6 392.37,-165.6 392.37,-165.6 392.37,-182.4 392.37,-182.4 392.37,-188.4 386.37,-194.4 380.37,-194.4"/>
+<text xml:space="preserve" text-anchor="middle" x="284.05" y="-177.3" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Thomas Heaton</text>
+<text xml:space="preserve" text-anchor="middle" x="284.05" y="-164.1" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">California Institute of Technology (1976)</text>
+</g>
+<!-- 194571&#45;&gt;194568 -->
+<g id="edge19" class="edge">
+<title>194571-&gt;194568</title>
+<path fill="none" stroke="black" stroke-width="2" d="M265.62,-230.15C268.12,-222.65 271.04,-213.91 273.81,-205.63"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="276.63,-208.25 276.48,-197.65 269.99,-206.03 276.63,-208.25"/>
+</g>
+<!-- 321387 -->
+<g id="node22" class="node">
+<title>321387</title>
+<path fill="#264653" stroke="black" d="M499.37,-40.8C499.37,-40.8 306.72,-40.8 306.72,-40.8 300.72,-40.8 294.72,-34.8 294.72,-28.8 294.72,-28.8 294.72,-12 294.72,-12 294.72,-6 300.72,0 306.72,0 306.72,0 499.37,0 499.37,0 505.37,0 511.37,-6 511.37,-12 511.37,-12 511.37,-28.8 511.37,-28.8 511.37,-34.8 505.37,-40.8 499.37,-40.8"/>
+<text xml:space="preserve" text-anchor="middle" x="403.05" y="-23.7" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">Filippos Filippitzis</text>
+<text xml:space="preserve" text-anchor="middle" x="403.05" y="-10.5" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#ffffff">California Institute of Technology (2020)</text>
+</g>
+<!-- 194568&#45;&gt;321387 -->
+<g id="edge20" class="edge">
+<title>194568-&gt;321387</title>
+<path fill="none" stroke="black" stroke-width="2" d="M299.6,-153.18C320.27,-126.85 356.92,-80.16 380.59,-50.01"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="382.2,-53.63 385.62,-43.61 376.69,-49.31 382.2,-53.63"/>
+</g>
+<!-- 321386&#45;&gt;321387 -->
+<g id="edge21" class="edge">
+<title>321386-&gt;321387</title>
+<path fill="none" stroke="black" stroke-width="2" d="M472.35,-76.55C461.43,-67.85 448.41,-57.5 436.62,-48.12"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="440.28,-46.55 430.28,-43.07 435.92,-52.03 440.28,-46.55"/>
+</g>
+</g>
+</svg>
