@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <!--By Filippos-->
+    <!--Last edit Jun 2026-->
+
+    <script src="../js_functions/includeHTML.js"></script>
+
+    <script src="../js_functions/get_theme_plain.js"></script>
+
+    <script src="../js_functions/fun_mode_button_plain.js"></script>
+
+    <head>
+        <!-- Metatags -->
+        <meta charset="UTF-8" />
+        <meta name="author" content="Filippos" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Title -->
+        <title>Utilizing On-board Sensing of Passing Train Vehicles for Virtual Sensing of Bridges</title>
+
+        <!-- css stylink link -->
+        <link rel="stylesheet" href="../css/styles.css" />
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="Default_Header">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">/Home</a></li>
+                        <li><a href="../about.html">/CV</a></li>
+                        <li><a href="../research.html">/Research</a></li>
+                        <li><a href="../teaching.html">/Teaching</a></li>
+                        <li><a href="../publications.html">/Publications</a></li>
+                        <li><a href="../posts.html">/Posts</a></li>
+                        <li>
+                            <button id="btn_dark_mode" onclick="fun_mode_button_plain()">
+                                /Dark Mode
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Body -->
+        <main>
+            <div class="Default_Container">
+                <h1>Utilizing On-board Sensing of Passing Train Vehicles for Virtual Sensing of Bridges</h1>
+                <p>
+                    Our recent work is now available online in Engineering Structures.
+                </p>
+            </div>
+            <div class="external-link">
+                <p>
+                    Link:
+                    <a href="https://doi.org/10.1016/j.engstruct.2024.118808">
+                        https://doi.org/10.1016/j.engstruct.2024.118808</a>
+                </p>
+            </div>
+            <br />
+            <div class="Default_Container">
+                <p>
+                    This study proposes a bridge response reconstruction approach using
+                    exclusively measurements obtained from instrumented train vehicles with
+                    known properties. The approach relies on an Augmented Kalman Filter (AKF)
+                    technique to estimate contact forces without prior knowledge of rail profile
+                    irregularities. Furthermore, the proposed methodology addresses the challenge
+                    of accurate vehicle-bridge interaction (VBI) contact force estimation in the
+                    presence of rigid-body modes in the train model, by separating rigid-body
+                    from flexible modes, and establishing a state-space formulation that
+                    incorporates the vehicle dynamics of solely flexible modes.
+                </p>
+                <p>
+                    The study examines, by means of numerical simulations, the impact of
+                    measurement and model errors, vehicle speed, and rail irregularities on both
+                    contact force estimation and bridge response reconstruction. It also
+                    investigates sensor configurations that minimize the number of sensors
+                    required on the train and shows that acceleration at all wheels and strain
+                    of at least one primary suspension per bogie are necessary for accurate
+                    force estimation. The results emphasize the significant role of VBI in
+                    achieving accurate bridge response reconstruction. The estimated contact
+                    forces in combination with a bridge model allow the reconstruction of the
+                    bridge response through virtual sensing, providing valuable information on
+                    the bridge's health status.
+                </p>
+                <br />
+                <img
+                    src="../media/posts/Post10_Figures/Fig1.png"
+                    alt="Bridge_response_reconstruction"
+                    class="center_img"
+                    style="width: 100%;" />
+                <br />
+                <p style="text-align: center; font-size: 15px; font-style: italic">
+                    <b>Figure</b>: Comparison between the "actual" and reconstructed bridge
+                    response: (a) displacement response history, (b) envelope of the deflection
+                    of the bridge, (c) acceleration response history, (d) zoom in of (c),
+                    (e) normal stress history of the top surface at the midspan of the bridge
+                    (v = 360 km/h) ("good quality" rail irregularity).
+                </p>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="Default_Footer">
+                <div w3-include-html="../html_includes/footer_default.html"></div>
+            </div>
+        </footer>
+    </body>
+
+    <script>
+        includeHTML();
+    </script>
+
+    <script>
+        get_theme_plain();
+    </script>
+</html>
